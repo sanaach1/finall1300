@@ -1,0 +1,155 @@
+/* Global Styles */
+
+body{
+    background-color:#FED3D4;
+}
+
+img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 55%;
+}
+
+#container {
+    background-color: #819DEC;
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid #F7F8E8;
+    padding: 20px;
+}
+#col_one {
+    width: 55%;
+    border: 2px solid #F7F8E8;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#col_two {
+    width: 55%;
+    border: 2px solid #F7F8E8;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.movie_post{
+    width: 65%;
+}
+
+.heading_style{
+    text-shadow: 2px 2px 2px #F7F8E8;
+}
+/* Mobile Style */
+
+@media(main-width: 320px){
+    nav {
+        background-color:#819DEC;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav li{
+    display: block;
+}
+
+    nav li a {
+    display: circle;
+    height: 40px;
+    background-color: #819DEC;
+    color: #8D714E;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 35px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+    nav li a:hover{
+    background-color: #070803;
+}
+
+main{
+    padding: 20px;
+}
+
+h1, 
+h2,
+h3 {
+    text-align: center;
+    color: #8D714E;
+    text-shadow: 1px 1px 1px #F7F8E8;
+}
+
+footer{
+    text-align: center;
+    padding: 45px;
+    color: #8D714E;
+    text-shadow: 1px 1px 1px #F7F8E8;
+}
+
+/* Table Styles */
+
+@media (min-width:768px) {
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 155px;
+        width: 55px;
+        line-height: 50px;
+        margin: 10px;
+    }
+
+    .movie_post {
+        width: 55%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #F7F8E8;
+    }
+}
+
+/* Desktop Style*/
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 25px auto;
+        border: 5px solid black;
+        border-radius: 25px;
+    }
+
+    nav {
+        padding: 0px;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color:#F7F8E8;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+    
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+}
